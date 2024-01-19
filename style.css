@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper .top-container {
+  width: 80vw;
+  height: 80px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper .top-container .input {
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  border: 1px solid white;
+}
+body .wrapper .top-container .input input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 17px;
+}
+body .wrapper .top-container .btn {
+  background-color: transparent;
+  width: 80px;
+  height: 45px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  font-size: 15px;
+  border: 1px solid white;
+}
+body .wrapper .top-container .btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+body .wrapper .bottom-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 500px;
+  margin: 10px 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+body .wrapper .bottom-container .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .wrapper .bottom-container .left li {
+  margin-bottom: 5px;
+  list-style: none;
+  width: 300px;
+  height: 50px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid white;
+}
+body .wrapper .bottom-container .left li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+body .wrapper .bottom-container .left li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+body .wrapper .bottom-container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .wrapper .bottom-container .right img {
+  width: 200px;
+  height: 200px;
+}
+body .wrapper .bottom-container .right .city {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+body .wrapper .bottom-container .right p {
+  font-size: 15px;
+  font-weight: 250;
+}
+body .copyright {
+  padding-top: 30px;
+}/*# sourceMappingURL=style.css.map */
